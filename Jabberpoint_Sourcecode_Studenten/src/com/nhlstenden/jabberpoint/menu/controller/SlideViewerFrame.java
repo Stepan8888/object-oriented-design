@@ -1,3 +1,8 @@
+package com.nhlstenden.jabberpoint.menu.controller;
+
+import menu.controller.KeyController;
+import menu.controller.MenuController;
+
 import java.awt.Dimension;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowAdapter;

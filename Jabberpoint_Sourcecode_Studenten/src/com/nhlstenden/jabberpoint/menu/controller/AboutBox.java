@@ -1,3 +1,5 @@
+package com.nhlstenden.jabberpoint.menu.controller;
+
 import java.awt.Frame;
 import javax.swing.JOptionPane;
 

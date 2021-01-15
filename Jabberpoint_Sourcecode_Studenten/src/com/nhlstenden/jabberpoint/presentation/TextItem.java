@@ -1,3 +1,5 @@
+package com.nhlstenden.jabberpoint.presentation;
+
 import java.awt.Rectangle;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
@@ -81,7 +83,7 @@ public class TextItem extends SlideItem {
 	  }
 
 	private List<TextLayout> getLayouts(Graphics g, Style s, float scale) {
-		List<TextLayout> layouts = new ArrayList<TextLayout>();
+		List<TextLayout> layouts = new ArrayList<>();
 		AttributedString attrStr = getAttributedString(s, scale);
     	Graphics2D g2d = (Graphics2D) g;
     	FontRenderContext frc = g2d.getFontRenderContext();

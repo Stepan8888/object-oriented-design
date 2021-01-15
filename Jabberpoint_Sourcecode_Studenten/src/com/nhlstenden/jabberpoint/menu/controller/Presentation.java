@@ -1,3 +1,7 @@
+package com.nhlstenden.jabberpoint.menu.controller;
+
+import com.nhlstenden.jabberpoint.presentation.Slide;
+
 import java.util.ArrayList;
 
 
@@ -76,7 +80,7 @@ public class Presentation {
 	}
 
 	//Remove the presentation
-	void clear() {
+	public void clear() {
 		this.showList = new ArrayList<>();
 		setSlideNumber(-1);
 	}

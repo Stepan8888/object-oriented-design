@@ -1,3 +1,10 @@
+package menu.controller;
+
+import com.nhlstenden.jabberpoint.menu.controller.AboutBox;
+import com.nhlstenden.jabberpoint.menu.controller.Accessor;
+import com.nhlstenden.jabberpoint.menu.controller.XMLAccessor;
+import com.nhlstenden.jabberpoint.menu.controller.Presentation;
+
 import java.awt.MenuBar;
 import java.awt.Frame;
 import java.awt.Menu;

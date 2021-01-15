@@ -1,3 +1,5 @@
+package com.nhlstenden.jabberpoint.presentation;
+
 import java.awt.Color;
 import java.awt.Font;
 

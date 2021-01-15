@@ -1,3 +1,5 @@
+package com.nhlstenden.jabberpoint.presentation;
+
 import java.awt.Graphics;
 import java.awt.Rectangle;
 import java.awt.image.ImageObserver;
@@ -14,8 +16,8 @@ import java.util.Vector;
  */
 
 public class Slide {
-	protected final static int WIDTH = 1200;
-	protected final static int HEIGHT = 800;
+	public final static int WIDTH = 1200;
+	public final static int HEIGHT = 800;
 	private String title; //The title is kept separately
 	private final Vector<SlideItem> items; //The SlideItems are kept in a vector
 

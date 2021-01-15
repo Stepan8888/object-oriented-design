@@ -1,3 +1,10 @@
+package com.nhlstenden.jabberpoint;
+
+import com.nhlstenden.jabberpoint.menu.controller.SlideViewerFrame;
+import com.nhlstenden.jabberpoint.menu.controller.XMLAccessor;
+import com.nhlstenden.jabberpoint.menu.controller.Presentation;
+import com.nhlstenden.jabberpoint.presentation.Style;
+
 import javax.swing.JOptionPane;
 
 import java.io.IOException;

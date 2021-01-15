@@ -1,3 +1,6 @@
+package com.nhlstenden.jabberpoint.menu.controller;
+
+import com.nhlstenden.jabberpoint.presentation.Slide;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Dimension;
